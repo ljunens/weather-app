@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    /* background-color: #e2d5f7; */
+    background: linear-gradient(to right, #d2b9f8, #c3a6f1);
+}
+
+.container{
+    padding: 40px;
+}
+
+
+
+.container .searchLoc input{
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.container .extraInfo{
+    list-style-type: none;  
+}
+
+.container .generalInfo .cityName{
+    font-size: 60px;
+    font-weight: 700;
+}
